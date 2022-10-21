@@ -36,9 +36,11 @@ const Home = ({
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <Banner netflixOriginals={netflixOriginals} />
 
-      <main></main>
+      <Banner netflixOriginals={netflixOriginals} />
+      <main className="relative pl-4 pb-24 lg:space-y-24 lg:pl-16">
+
+      </main>
     </div>
   );
 };
